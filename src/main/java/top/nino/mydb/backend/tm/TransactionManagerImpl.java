@@ -47,7 +47,7 @@ public class TransactionManagerImpl implements TransactionManager{
     private static final byte FIELD_TRAN_COMMITTED = 1;
     private static final byte FIELD_TRAN_ABORTED = 2;
 
-    //--------------------------------------------------//
+    //-----------------------------------------------------//
 
     private RandomAccessFile randomAccessFile;
     private FileChannel fileChannel;
